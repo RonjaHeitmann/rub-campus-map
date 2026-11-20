@@ -1,0 +1,14 @@
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\bin\Debug\net9.0\InteraktiveMap.exe
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\bin\Debug\net9.0\InteraktiveMap.deps.json
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\bin\Debug\net9.0\InteraktiveMap.runtimeconfig.json
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\bin\Debug\net9.0\InteraktiveMap.dll
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\bin\Debug\net9.0\InteraktiveMap.pdb
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.AssemblyInfoInputs.cache
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.AssemblyInfo.cs
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.csproj.CoreCompileInputs.cache
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.dll
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\refint\InteraktiveMap.dll
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.pdb
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\InteraktiveMap.genruntimeconfig.cache
+C:\Users\Ronja\Documents\RUB\Master\Campus App\InteraktiveMap\obj\Debug\net9.0\ref\InteraktiveMap.dll
