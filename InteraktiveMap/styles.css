@@ -492,7 +492,7 @@ text.room-label {
     }
 
     .building-heading {
-        top: 80px;
+        top: 70px;
         left: 18px;
         gap: 8px;
     }
@@ -509,7 +509,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 80px;
+        top: 70px;
         right: 16px;
     }
 
