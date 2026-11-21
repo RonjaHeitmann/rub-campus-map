@@ -1,0 +1,89 @@
+﻿<!-- Anzeigen: im Browser: http://localhost:8000/ | im Terminal: python -m http.server 8000 -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interaktive Karte</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <div class="app-wrapper">
+        <!-- SVG Karte -->
+        <div id="map-container"></div>
+        <div id="building-name" class="building-name" aria-live="polite">ID</div>
+        <div id="building-transition" class="building-transition" hidden>
+            <span id="building-transition-label" class="building-transition-label">IC · Ebene 04</span>
+            <button type="button" id="building-transition-button" class="btn-circle building-transition-button" aria-label="Zu Gebäude IC wechseln">
+                <span id="building-transition-arrow" aria-hidden="true">←</span>
+            </button>
+        </div>
+
+        <!-- Top Overlay: Suchfelder -->
+        <div class="top-search-card">
+            <div class="input-group">
+                <span class="input-icon">🔍</span>
+                <input type="text" id="destination-input" placeholder="Zielraum suchen..." autocomplete="off">
+                <button type="button" id="clear-destination" class="input-clear" aria-label="Zielraum entfernen" hidden>×</button>
+            </div>
+            <div class="input-group">
+                <span class="input-icon">📍</span>
+                <input type="text" id="start-input" placeholder="Aktueller Raum (Start)..." autocomplete="off">
+                <button type="button" id="clear-start" class="input-clear" aria-label="Startraum entfernen" hidden>×</button>
+            </div>
+            <!-- Suchergebnisse Dropdown -->
+            <div id="search-results" class="search-results-dropdown"></div>
+        </div>
+
+        <aside id="map-legend" class="map-legend is-collapsed" aria-label="Kartenlegende">
+            <button type="button" id="legend-toggle" class="legend-toggle" aria-label="Legende anzeigen" aria-expanded="false" aria-controls="legend-items">i</button>
+            <div id="legend-items" class="legend-items" hidden>
+                <div class="legend-item"><span class="legend-swatch legend-elevator"></span><span>Aufzug</span></div>
+                <div class="legend-item"><span class="legend-swatch legend-stairs"></span><span>Treppe</span></div>
+                <div class="legend-item"><span class="legend-swatch legend-toilet"></span><span>Toilette</span></div>
+                <div class="legend-item legend-item-exitIC" title="Gebäudeübergang zwischen IC und ID">
+                    <span class="legend-swatch legend-exitIC"></span><span>IC↔ID</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Controls: Etagen-Switch Pfeile -->
+        <div class="right-controls">
+            <button id="btn-floor-up" class="btn-circle">▲</button>
+            <span id="current-floor-badge" class="floor-indicator">EG</span>
+            <button id="btn-floor-down" class="btn-circle">▼</button>
+        </div>
+
+        <!-- Bottom Panel: Etagen-Auswahl & Transport-Swipe -->
+        <div class="bottom-panel">
+            <div class="floor-route-info">
+                <div class="route-item">
+                    <span class="route-icon">⌂</span>
+                    <span id="label-start-floor">Start-Etage: --</span>
+                </div>
+                <div class="route-item">
+                    <span class="route-icon">⌂</span>
+                    <span id="label-dest-floor">Ziel-Etage: --</span>
+                </div>
+            </div>
+
+            <!-- Swipeable Transport Carousel -->
+            <div class="transport-carousel">
+                <div class="transport-track">
+                    <div class="transport-option active" data-mode="staircase">
+                        <span class="mode-icon">🚶</span>
+                        <span class="mode-label">Treppen</span>
+                    </div>
+                    <div class="transport-option" data-mode="elevator">
+                        <span class="mode-icon">🛗</span> <!-- Spezifisches Aufzug-Emoji -->
+                        <span class="mode-label">Aufzug</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
