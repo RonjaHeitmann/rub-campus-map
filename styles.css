@@ -478,7 +478,7 @@ text.room-label {
 @media (max-width: 640px) {
     :root {
         --map-offset-x: 0px;
-        --map-offset-y: -35px;
+        --map-offset-y: -30px;
         --top-overlay-height: 84px;
     }
 
@@ -512,7 +512,7 @@ text.room-label {
     }
 
     .building-heading {
-        top: 102px;
+        top: 105px;
         left: 24px;
         gap: 8px;
     }
@@ -556,7 +556,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 102px;
+        top: 105px;
         right: 16px;
     }
 
@@ -582,7 +582,7 @@ text.room-label {
 
     .right-controls #btn-floor-up {
         position: absolute;
-        top: 102px;
+        top: 105px;
         right: 60px;
         width: 36px;
         height: 36px;
