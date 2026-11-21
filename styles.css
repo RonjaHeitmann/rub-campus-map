@@ -478,7 +478,7 @@ text.room-label {
 @media (max-width: 640px) {
     :root {
         --map-offset-x: 0px;
-        --map-offset-y: -30px;
+        --map-offset-y: -20px;
         --top-overlay-height: 84px;
     }
 
