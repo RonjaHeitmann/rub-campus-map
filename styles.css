@@ -512,7 +512,7 @@ text.room-label {
     }
 
     .building-heading {
-        top: 120px;
+        top: 115px;
         left: 24px;
         gap: 8px;
     }
@@ -556,7 +556,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 115px;
+        top: 110px;
         right: 16px;
     }
 
@@ -564,6 +564,12 @@ text.room-label {
         width: 36px;
         height: 36px;
         font-size: 23px;
+    }
+
+    .map-legend:not(.is-collapsed) {
+        width: 145px;
+        height: 96px;
+        padding: 12px;
     }
 
     .right-controls {
@@ -582,7 +588,7 @@ text.room-label {
 
     .right-controls #btn-floor-up {
         position: absolute;
-        top: 115px;
+        top: 110px;
         right: 60px;
         width: 36px;
         height: 36px;
@@ -591,7 +597,7 @@ text.room-label {
 
     .right-controls #btn-floor-down {
         position: absolute;
-        bottom: 230px;
+        bottom: 225px;
         right: 16px;
         width: 36px;
         height: 36px;
@@ -600,7 +606,7 @@ text.room-label {
 
     .building-transition {
         top: auto !important;
-        bottom: 230px;
+        bottom: 225px;
         left: 24px !important;
         gap: 6px;
     }
@@ -617,7 +623,7 @@ text.room-label {
     }
 
     .bottom-panel {
-        bottom: 5px;
+        bottom: 0;
         height: 210px;
         padding: 12px 14px 10px;
         border-top-left-radius: 18px;
