@@ -488,11 +488,11 @@ text.room-label {
         display: inline-block;
     }
     :root {
-        --map-offset-y: -35px;
+        --map-offset-y: -20px;
     }
 
     .building-heading {
-        top: 95px;
+        top: 80px;
         left: 18px;
         gap: 8px;
     }
@@ -509,7 +509,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 95px;
+        top: 80px;
         right: 16px;
     }
 
@@ -531,7 +531,7 @@ text.room-label {
     }
 
     .right-controls #btn-floor-up {
-        top: 95px;
+        top: 90px;
         right: 60px;
     }
 
