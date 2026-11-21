@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\styles.css||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:styles.css||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID-03.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:ID-03.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID2.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:ID2.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID-04.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{84D27F74-D2BA-6C25-2661-968F101900D9}|Projektmappenelemente{84D27F74-D2BA-6C25-2661-968F101900D9}|solutionrelative:ID-04.svg||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-07-26T06:25:55.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\script.js",
+              "RelativeDocumentMoniker": "script.js",
+              "ToolTip": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\script.js",
+              "RelativeToolTip": "script.js",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-07-26T06:26:24.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\styles.css",
+              "RelativeDocumentMoniker": "styles.css",
+              "ToolTip": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\styles.css",
+              "RelativeToolTip": "styles.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-07-26T06:28:35.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ID2.svg",
+              "DocumentMoniker": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID2.svg",
+              "RelativeDocumentMoniker": "ID2.svg",
+              "ToolTip": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID2.svg",
+              "RelativeToolTip": "ID2.svg",
+              "ViewState": "AgIAAI4GAAAAAAAAAAAYwLcGAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO6SURBVDhPfZTLb1tFGMV/c\u002Bfa14/YSXzzkhqE0kRyFahAqdQFrVr6iKCbrsKiRC2kUiX4B\u002BgfgBDiH4jEgg3suoIdhAShIiGSFCEBbeo0lWMntWPn4dhObN/nsOBGuhipZzWaOd\u002BZM5/mfJKX402hRT6SRuoLfP8tlDoA9gCnmwiAUkp074VwxUj23z7z\u002Brnpa9M3etc3X7RXf/n\u002BcXV742vl2Q\u002BAVncBgOzeAOLA\u002BagRv3vt\u002BvT1uQ/vjL47fSV6JjuRdPyIWas3\u002B\u002Bu1PYXyngJed3G3YAo4q\u002Bv63KXLb9\u002BYnb116p3pqwxk0pi9PSTSGaNlq8Hq7v7AcWP/AOVXACssEBaMAWdjsdj74\u002BPjc/fvf9J38cIF4fmKUrnKTrXGyFA/ybRpNDticHurMOk47TV87yAsGhZ8Q0p5e3x8/N78/LwxOTnJwUFNbDzPU6nsUXyxQ7G0RyoVZ\u002Bz0WKTSig/slfOvOZ3jTVD5k\u002BefCJ4D7maz2ZszMzOZqakpsbCwIJaXVyiXyxwe1tksviBfLLO2UaRcrYvsxGmt6Rq9rWZj2GrVbZSfA3wJTAD3MpnMjdHR0Vd7enrE6uoqi4uLVCoVWu0WhcImfz/JUdgqUSztsl87wojFRSJlRh1fNzvtdtppHdqgnkrgA03T7oyMjIyl02lRLpdZWlqiUCgAYFkWz9bXyW/mqdWbHLcsWh2HeqPN4KCJFuuNW54YbB8d9npW85EEPjcM41QymYxKKTXHcYSmadi2jeM4NBoNqtUKvmsjAKFJpCbxlUABUjdAM4yWrSKdg/yWBMqu68pms9lbr9dTjuPopmkSjUYBcF2XSCSCbdtoQtGXTjE8PMzgQIa2ZbNXLbG7nTs6rq4/8e3jrwTQD4wCrwghrkSj0VnTNIeUUlosFiORSCClpNPp/OvaU7i\u002BxBPSszp2ybGtR67d/s1zWsvKc34PR\u002B8iMCuEmDEMo1/TNC0ej5NIJNB1Hdd1sW2bjmX5nY5dclzvR99zn6C8HJADNrsz/h7wAHgcDAAL8AFfSumfrIOiP4BbQJ\u002BU8qymaZeALF0few1YAcpAD2AG6dGUUiEaAjCC84eJRGJO1/U5x3H6gJ\u002B6s\u002BwF7hYDseGgx92cLeA74FfXdf90XfcH4GegqYWIl4GPgZvALhAJnITxHPgG\u002BBT4Fmjouj6k67oB7ACEBQVgA7WgTyvBrbkQZwd4GLjLAbZSqq2UagP/6QtAMhhfJxDAFPBZUPwX8CVwNcT5H142sU8wCpwHisAzoN5NCOMfHLiqI9cTM68AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-08-26T01:22:19.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ID-03.svg",
+              "DocumentMoniker": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID-03.svg",
+              "RelativeDocumentMoniker": "ID-03.svg",
+              "ToolTip": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID-03.svg",
+              "RelativeToolTip": "ID-03.svg",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAkwMcAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO6SURBVDhPfZTLb1tFGMV/c\u002Bfa14/YSXzzkhqE0kRyFahAqdQFrVr6iKCbrsKiRC2kUiX4B\u002BgfgBDiH4jEgg3suoIdhAShIiGSFCEBbeo0lWMntWPn4dhObN/nsOBGuhipZzWaOd\u002BZM5/mfJKX402hRT6SRuoLfP8tlDoA9gCnmwiAUkp074VwxUj23z7z\u002Brnpa9M3etc3X7RXf/n\u002BcXV742vl2Q\u002BAVncBgOzeAOLA\u002BagRv3vt\u002BvT1uQ/vjL47fSV6JjuRdPyIWas3\u002B\u002Bu1PYXyngJed3G3YAo4q\u002Bv63KXLb9\u002BYnb116p3pqwxk0pi9PSTSGaNlq8Hq7v7AcWP/AOVXACssEBaMAWdjsdj74\u002BPjc/fvf9J38cIF4fmKUrnKTrXGyFA/ybRpNDticHurMOk47TV87yAsGhZ8Q0p5e3x8/N78/LwxOTnJwUFNbDzPU6nsUXyxQ7G0RyoVZ\u002Bz0WKTSig/slfOvOZ3jTVD5k\u002BefCJ4D7maz2ZszMzOZqakpsbCwIJaXVyiXyxwe1tksviBfLLO2UaRcrYvsxGmt6Rq9rWZj2GrVbZSfA3wJTAD3MpnMjdHR0Vd7enrE6uoqi4uLVCoVWu0WhcImfz/JUdgqUSztsl87wojFRSJlRh1fNzvtdtppHdqgnkrgA03T7oyMjIyl02lRLpdZWlqiUCgAYFkWz9bXyW/mqdWbHLcsWh2HeqPN4KCJFuuNW54YbB8d9npW85EEPjcM41QymYxKKTXHcYSmadi2jeM4NBoNqtUKvmsjAKFJpCbxlUABUjdAM4yWrSKdg/yWBMqu68pms9lbr9dTjuPopmkSjUYBcF2XSCSCbdtoQtGXTjE8PMzgQIa2ZbNXLbG7nTs6rq4/8e3jrwTQD4wCrwghrkSj0VnTNIeUUlosFiORSCClpNPp/OvaU7i\u002BxBPSszp2ybGtR67d/s1zWsvKc34PR\u002B8iMCuEmDEMo1/TNC0ej5NIJNB1Hdd1sW2bjmX5nY5dclzvR99zn6C8HJADNrsz/h7wAHgcDAAL8AFfSumfrIOiP4BbQJ\u002BU8qymaZeALF0few1YAcpAD2AG6dGUUiEaAjCC84eJRGJO1/U5x3H6gJ\u002B6s\u002BwF7hYDseGgx92cLeA74FfXdf90XfcH4GegqYWIl4GPgZvALhAJnITxHPgG\u002BBT4Fmjouj6k67oB7ACEBQVgA7WgTyvBrbkQZwd4GLjLAbZSqq2UagP/6QtAMhhfJxDAFPBZUPwX8CVwNcT5H142sU8wCpwHisAzoN5NCOMfHLiqI9cTM68AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-07-26T07:34:24.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ID-04.svg",
+              "DocumentMoniker": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID-04.svg",
+              "RelativeDocumentMoniker": "ID-04.svg",
+              "ToolTip": "C:\\Users\\Ronja\\Documents\\RUB\\Master\\Campus App\\V2\\InteraktiveMap\\ID-04.svg",
+              "RelativeToolTip": "ID-04.svg",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwL0AAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAO6SURBVDhPfZTLb1tFGMV/c\u002Bfa14/YSXzzkhqE0kRyFahAqdQFrVr6iKCbrsKiRC2kUiX4B\u002BgfgBDiH4jEgg3suoIdhAShIiGSFCEBbeo0lWMntWPn4dhObN/nsOBGuhipZzWaOd\u002BZM5/mfJKX402hRT6SRuoLfP8tlDoA9gCnmwiAUkp074VwxUj23z7z\u002Brnpa9M3etc3X7RXf/n\u002BcXV742vl2Q\u002BAVncBgOzeAOLA\u002BagRv3vt\u002BvT1uQ/vjL47fSV6JjuRdPyIWas3\u002B\u002Bu1PYXyngJed3G3YAo4q\u002Bv63KXLb9\u002BYnb116p3pqwxk0pi9PSTSGaNlq8Hq7v7AcWP/AOVXACssEBaMAWdjsdj74\u002BPjc/fvf9J38cIF4fmKUrnKTrXGyFA/ybRpNDticHurMOk47TV87yAsGhZ8Q0p5e3x8/N78/LwxOTnJwUFNbDzPU6nsUXyxQ7G0RyoVZ\u002Bz0WKTSig/slfOvOZ3jTVD5k\u002BefCJ4D7maz2ZszMzOZqakpsbCwIJaXVyiXyxwe1tksviBfLLO2UaRcrYvsxGmt6Rq9rWZj2GrVbZSfA3wJTAD3MpnMjdHR0Vd7enrE6uoqi4uLVCoVWu0WhcImfz/JUdgqUSztsl87wojFRSJlRh1fNzvtdtppHdqgnkrgA03T7oyMjIyl02lRLpdZWlqiUCgAYFkWz9bXyW/mqdWbHLcsWh2HeqPN4KCJFuuNW54YbB8d9npW85EEPjcM41QymYxKKTXHcYSmadi2jeM4NBoNqtUKvmsjAKFJpCbxlUABUjdAM4yWrSKdg/yWBMqu68pms9lbr9dTjuPopmkSjUYBcF2XSCSCbdtoQtGXTjE8PMzgQIa2ZbNXLbG7nTs6rq4/8e3jrwTQD4wCrwghrkSj0VnTNIeUUlosFiORSCClpNPp/OvaU7i\u002BxBPSszp2ybGtR67d/s1zWsvKc34PR\u002B8iMCuEmDEMo1/TNC0ej5NIJNB1Hdd1sW2bjmX5nY5dclzvR99zn6C8HJADNrsz/h7wAHgcDAAL8AFfSumfrIOiP4BbQJ\u002BU8qymaZeALF0few1YAcpAD2AG6dGUUiEaAjCC84eJRGJO1/U5x3H6gJ\u002B6s\u002BwF7hYDseGgx92cLeA74FfXdf90XfcH4GegqYWIl4GPgZvALhAJnITxHPgG\u002BBT4Fmjouj6k67oB7ACEBQVgA7WgTyvBrbkQZwd4GLjLAbZSqq2UagP/6QtAMhhfJxDAFPBZUPwX8CVwNcT5H142sU8wCpwHisAzoN5NCOMfHLiqI9cTM68AAAAASUVORK5CYII=",
+              "WhenOpened": "2026-07-26T07:29:56.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
