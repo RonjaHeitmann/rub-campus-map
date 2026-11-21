@@ -478,7 +478,7 @@ text.room-label {
 @media (max-width: 640px) {
     :root {
         --map-offset-x: 0px;
-        --map-offset-y: -5px;
+        --map-offset-y: -10px;
         --top-overlay-height: 84px;
     }
 
@@ -512,7 +512,7 @@ text.room-label {
     }
 
     .building-heading {
-        top: 132px;
+        top: 127px;
         left: 24px;
         gap: 8px;
     }
@@ -529,7 +529,7 @@ text.room-label {
     }
 
     .top-search-card {
-        top: 16px;
+        top: 11px;
         left: 16px;
         width: calc(100% - 32px);
         max-width: none;
@@ -556,7 +556,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 132px;
+        top: 127px;
         right: 16px;
     }
 
