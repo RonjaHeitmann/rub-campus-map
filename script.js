@@ -4,6 +4,7 @@
     const searchInput = document.getElementById("search-input");
     const searchResults = document.getElementById("search-results");
     const currentFloorBadge = document.getElementById("current-floor-badge");
+    const desktopFloorBadge = document.getElementById("desktop-floor-badge");
     const btnFloorUp = document.getElementById("btn-floor-up");
     const btnFloorDown = document.getElementById("btn-floor-down");
     const appWrapper = document.querySelector(".app-wrapper");
@@ -333,6 +334,9 @@
 
         if (currentFloorBadge) {
             currentFloorBadge.textContent = getFloorLabel(currentBuilding, currentFloor);
+        }
+        if (desktopFloorBadge) {
+            desktopFloorBadge.textContent = getFloorLabel(currentBuilding, currentFloor);
         }
         if (buildingName) buildingName.textContent = currentBuilding;
         if (btnFloorUp) btnFloorUp.disabled = currentBuilding === "IC" || currentFloor >= maxFloors;

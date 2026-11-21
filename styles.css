@@ -55,18 +55,43 @@ body, html {
     max-height: 100%;
     display: block;
     object-fit: contain;
+    transform: scale(1);
 }
 
-.building-name {
+.desktop-floor-badge {
+    display: block;
+}
+
+.building-heading .floor-indicator {
+    display: none;
+}
+
+.building-heading {
     position: absolute;
     top: 16px;
     left: 24px;
     z-index: 9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    pointer-events: none;
+}
+
+.building-name {
     color: #000000;
     font-size: var(--top-overlay-height);
     font-weight: 500;
     line-height: 1;
-    pointer-events: none;
+}
+
+.floor-indicator {
+    background: #ffffff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    white-space: nowrap;
 }
 
 .building-transition {
@@ -181,7 +206,7 @@ body, html {
     position: absolute;
     top: 16px;
     right: calc(16px + var(--legend-offset-x));
-    z-index: 10;
+    z-index: 11;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -309,15 +334,6 @@ body, html {
 .btn-circle:disabled {
     opacity: 0.4;
     cursor: default;
-}
-
-.floor-indicator {
-    background: #ffffff;
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* BOTTOM PANEL: Fest am unteren Rand */
@@ -462,7 +478,7 @@ text.room-label {
 @media (max-width: 640px) {
     :root {
         --map-offset-x: 0px;
-        --map-offset-y: 0px;
+        --map-offset-y: -5px;
         --top-overlay-height: 84px;
     }
 
@@ -484,12 +500,32 @@ text.room-label {
         height: 100%;
         max-width: 100%;
         max-height: 100%;
+        transform: scale(1.05);
+    }
+
+    .desktop-floor-badge {
+        display: none;
+    }
+
+    .building-heading .floor-indicator {
+        display: inline-block;
+    }
+
+    .building-heading {
+        top: 132px;
+        left: 24px;
+        gap: 8px;
     }
 
     .building-name {
-        top: 112px;
-        left: 24px;
         font-size: 26px;
+    }
+
+    .floor-indicator {
+        min-width: 82px;
+        text-align: center;
+        padding: 3px 7px;
+        font-size: 10px;
     }
 
     .top-search-card {
@@ -520,7 +556,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 112px;
+        top: 132px;
         right: 16px;
     }
 
@@ -540,15 +576,14 @@ text.room-label {
         pointer-events: none;
     }
 
-    .right-controls button,
-    .right-controls .floor-indicator {
+    .right-controls button {
         pointer-events: auto;
     }
 
     .right-controls #btn-floor-up {
         position: absolute;
-        top: 148px;
-        right: 16px;
+        top: 132px;
+        right: 60px;
         width: 36px;
         height: 36px;
         font-size: 13px;
@@ -556,26 +591,16 @@ text.room-label {
 
     .right-controls #btn-floor-down {
         position: absolute;
-        bottom: 210px;
+        bottom: 230px;
         right: 16px;
         width: 36px;
         height: 36px;
         font-size: 13px;
     }
 
-    .right-controls .floor-indicator {
-        position: absolute;
-        top: 116px;
-        right: 58px;
-        min-width: 82px;
-        text-align: center;
-        padding: 3px 7px;
-        font-size: 10px;
-    }
-
     .building-transition {
         top: auto !important;
-        bottom: 210px;
+        bottom: 230px;
         left: 24px !important;
         gap: 6px;
     }
@@ -592,6 +617,7 @@ text.room-label {
     }
 
     .bottom-panel {
+        bottom: 5px;
         height: 210px;
         padding: 12px 14px 10px;
         border-top-left-radius: 18px;

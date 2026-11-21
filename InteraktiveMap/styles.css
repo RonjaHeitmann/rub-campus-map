@@ -55,18 +55,43 @@ body, html {
     max-height: 100%;
     display: block;
     object-fit: contain;
+    transform: scale(1);
+}
+
+.desktop-floor-badge {
+    display: block;
+}
+
+.building-heading .floor-indicator {
+    display: none;
 }
 
 .building-name {
-    position: absolute;
-    top: 16px;
-    left: 24px;
-    z-index: 9;
     color: #000000;
     font-size: var(--top-overlay-height);
     font-weight: 500;
     line-height: 1;
+}
+
+.building-heading {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     pointer-events: none;
+}
+
+.floor-indicator {
+    background: #ffffff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    white-space: nowrap;
 }
 
 .building-transition {
@@ -181,7 +206,7 @@ body, html {
     position: absolute;
     top: 16px;
     right: calc(16px + var(--legend-offset-x));
-    z-index: 10;
+    z-index: 11;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -309,15 +334,6 @@ body, html {
 .btn-circle:disabled {
     opacity: 0.4;
     cursor: default;
-}
-
-.floor-indicator {
-    background: #ffffff;
-    padding: 4px 8px;
-    border-radius: 12px;
-    font-size: 12px;
-    font-weight: bold;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* BOTTOM PANEL: Fest am unteren Rand */
@@ -460,10 +476,76 @@ text.room-label {
 }
 
 @media (max-width: 640px) {
-    .building-name {
-        top: calc(16px + var(--top-overlay-height));
+    #map-container svg {
+        transform: scale(1.05);
+    }
+
+    .desktop-floor-badge {
+        display: none;
+    }
+
+    .building-heading .floor-indicator {
+        display: inline-block;
+    }
+    :root {
+        --map-offset-y: -5px;
+    }
+
+    .building-heading {
+        top: 122px;
         left: 18px;
+        gap: 8px;
+    }
+
+    .building-name {
         font-size: 32px;
+    }
+
+    .floor-indicator {
+        min-width: 82px;
+        text-align: center;
+        padding: 3px 7px;
+        font-size: 10px;
+    }
+
+    .map-legend {
+        top: 122px;
+        right: 16px;
+    }
+
+    .right-controls {
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        transform: none;
+        pointer-events: none;
+    }
+
+    .right-controls button {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        font-size: 13px;
+        pointer-events: auto;
+    }
+
+    .right-controls #btn-floor-up {
+        top: 122px;
+        right: 60px;
+    }
+
+    .right-controls #btn-floor-down {
+        bottom: 225px;
+        right: 16px;
+    }
+
+    .building-transition {
+        bottom: 225px;
+    }
+
+    .bottom-panel {
+        bottom: 5px;
     }
 }
 
