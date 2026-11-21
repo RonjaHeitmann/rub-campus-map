@@ -492,7 +492,7 @@ text.room-label {
     }
 
     .building-heading {
-        top: 70px;
+        top: 80px;
         left: 18px;
         gap: 8px;
     }
@@ -509,7 +509,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 70px;
+        top: 80px;
         right: 16px;
     }
 
@@ -536,12 +536,12 @@ text.room-label {
     }
 
     .right-controls #btn-floor-down {
-        bottom: 230px;
+        bottom: 225px;
         right: 16px;
     }
 
     .building-transition {
-        bottom: 230px;
+        bottom: 225px;
     }
 
     .bottom-panel {
