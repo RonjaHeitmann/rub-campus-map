@@ -536,12 +536,12 @@ text.room-label {
     }
 
     .right-controls #btn-floor-down {
-        bottom: 225px;
+        bottom: 230px;
         right: 16px;
     }
 
     .building-transition {
-        bottom: 225px;
+        bottom: 230px;
     }
 
     .bottom-panel {

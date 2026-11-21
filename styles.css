@@ -512,7 +512,7 @@ text.room-label {
     }
 
     .building-heading {
-        top: 140px;
+        top: 130px;
         left: 24px;
         gap: 8px;
     }
@@ -556,7 +556,7 @@ text.room-label {
     }
 
     .map-legend {
-        top: 140px;
+        top: 130px;
         right: 16px;
     }
 
